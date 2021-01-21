@@ -17,7 +17,6 @@
   "dependencies": {},
   "scripts": {
     "dev": "webpack --watch -c ./webpack.dev.js",
-    "prod": "webpack -c ./webpack.dev.js"
-  },
-  "sideEffects": false
+    "prod": "webpack -c ./webpack.prod.js"
+  }
 }
