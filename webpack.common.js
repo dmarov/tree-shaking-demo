@@ -10,19 +10,6 @@ module.exports = {
             {
                 test: /\.tsx?$/,
                 use: [
-                    {
-                        loader: 'babel-loader',
-                        options: {
-                            presets: [
-                                [
-                                    "@babel/preset-env",
-                                    {
-                                        "modules": false
-                                    }
-                                ]
-                            ]
-                        }
-                    },
                     'ts-loader'
                 ],
                 exclude: /node_modules/,
