@@ -1,10 +1,10 @@
 const path = require('path');
 
 module.exports = {
-    entry: [
-        './src/entry1.ts',
-        './src/entry2.ts',
-    ],
+    entry: {
+        entry1: './src/entry1.ts',
+        entry2: './src/entry2.ts',
+    },
     module: {
         rules: [
             {
